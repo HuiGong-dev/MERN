@@ -14,4 +14,8 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
-root.render(<App />);
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);

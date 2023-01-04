@@ -1,11 +1,11 @@
-const useFormStyles = (theme) => ({
+const useFormStyles = () => ({
   root: {
     "& .MuiTextField-root": {
-      margin: theme.spacing(1),
+      margin: "2px",
     },
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: "10px",
   },
   form: {
     display: "flex",
@@ -17,7 +17,7 @@ const useFormStyles = (theme) => ({
     margin: "10px 0",
   },
   buttonSubmit: {
-    marginBottom: 10,
+    marginBottom: 1,
   },
 });
 
