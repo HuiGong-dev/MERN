@@ -1,10 +1,10 @@
-const makePostsStyle = (theme) => ({
+const makePostsStyle = () => ({
   mainContainer: {
     display: "flex",
     alignItems: "center",
   },
   smMargin: {
-    margin: theme.spacing(1),
+    margin: "4px",
   },
   actionDiv: {
     textAlign: "center",

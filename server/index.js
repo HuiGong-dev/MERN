@@ -16,6 +16,8 @@ const CONNECTION_URL =
   "mongodb+srv://huigong:4dUzVqMKVw1ExKAk@cluster0.yiov2ku.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5050;
 
+mongoose.set("strictQuery", false);
+
 mongoose
   .connect(CONNECTION_URL)
   .then(() =>

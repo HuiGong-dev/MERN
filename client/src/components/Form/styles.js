@@ -11,6 +11,7 @@ const useFormStyles = () => ({
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
+    mg: 2,
   },
   fileInput: {
     width: "97%",
